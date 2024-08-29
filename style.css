@@ -10,6 +10,7 @@ main {
     margin: 20px;
 }
 p {
+    font-size: 20px;
     font-family: 'Roboto';
 }
 .center {
@@ -30,7 +31,7 @@ p {
 h1 {
     position: relative;
     font-family: cursive;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
 }
 .navbar ul {
@@ -69,15 +70,25 @@ AFDDE5 - light blue
     left: 50%;
     margin: auto;
     width: 40%;
-
+    text-align: center;
+    top: 50%;
+    transform: translate(0%, -50%);
 }
 
 #headshot_image {
+    width: 50%;
+    height: auto;
+    vertical-align: middle;
+    position: relative;
+    top: 50%;
+}
+
+.img_panel {
     position: absolute;
-    left: 5%;
-    width: 40%;
-    height:auto;
-    margin: auto;
+    top: 50%;
+    left:50%;
+    transform: translate(-55%, -50%);
+    width: 50%;
 }
 
 main {
